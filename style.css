@@ -1,0 +1,46 @@
+body{
+    background-image: linear-gradient(to right, #DECBA4, #3E5151);
+}
+#card{
+    display: flex;
+    flex-wrap: wrap;
+    max-width:max-content;
+    margin-top: 3rem;          
+}
+
+#search-cont{
+    margin-top: 5rem;
+}
+.skill-body{
+    margin-top: 5rem;
+    margin: auto;
+}
+
+#footer {
+    color: white;
+    background-color: black;
+    font-family: var(--font);
+    padding: 2em;
+    margin-top:5rem;
+}
+#follow{
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#follow-links {
+    padding: 0px 30px;
+    width: 15%;
+    margin-top: 0.5rem;
+    margin-bottom: 3rem;
+    display: flex;
+    
+}
+#copyright{
+   text-align: center;
+   color: gray;
+}
+#wlcm{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;    
+}

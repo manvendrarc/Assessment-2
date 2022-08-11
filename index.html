@@ -1,12 +1,143 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Assessment-2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="">
+                <i class="fa-brands fa-accusoft"></i>  Person Management</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#wlcm">Welcome</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#srch">Search</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#footer">Contact</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="wlcm" class="skill-body col-md-8 mt-4" >
+        <div id="carouselExampleDark" class="carousel carousel-light slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner" style="margin-top: 1rem;">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="./assets/1.png" class=" w-100" alt="..." style="height:auto ;width:auto ;">
+                    <div class="carousel-caption  " style="color: white;">
+                        <h5>Welcome!</h5>
+                        <p>"Person Management Application"</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/2.jpg" class=" w-100" alt="..." style="height:auto ;width:auto ;">
+                    <div class="carousel-caption  " style="color: white;">
+                        <h5>Welcome!</h5>
+                        <p>"Person Management Application"</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/3.jpg" class=" w-100" alt="..." style="height:auto ;width:auto ;">
+                    <div class="carousel-caption  " style="color: white;">
+                        <h5>Welcome!</h5>
+                        <p>"Person Management Application"</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    </div>
+
+   
+    <div id="search-cont" class="container-fluid">
+        <form class="d-flex" role="search">
+            <input id="inpt" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button id="srch" class="btn btn-outline-danger" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+        <div id="card" class="container-fluid  ">
+        </div>
+    </div>
+
+    <div id="footer" style="background-color: black;">
+        <h2 class="footer-head mt-2 mb-4"><i class="fa-solid fa-user " style="margin-right: 0.4rem "></i>Hobbies</h2>
+        <div id="flex-footer">
+            <div id="footer-content">
+                <h6>Interests</h6>
+                <p>Gym | Anime</p>
+                <h6>Skills</h6>
+                <p>Motivator | Time Maneger | Planner | Good Advisor</p>
+            </div>
+        </div>
+        <div id="follow">
+            <h6>
+            <span>Follow</span>
+            Me
+            
+            <div id="follow-links" >
+                <a style="font-size:larger ;color: white;" href="https://www.linkedin.com/in/manvendra-singh-chauhan-b491a1216" target="_blank">
+                    <i class="fa-brands fa-linkedin" style="padding:0px 10px">
+                    </i>
+                </a>
+                <a style="font-size:larger ;color: white;" href="https://github.com/manvendrarc" target="_blank">
+                    <i class="fa-brands fa-github"style="padding:0px 5px">
+                    </i>
+                </a>
+                <a style="font-size:larger ; color: white;" href="https://www.instagram.com/kunwar_manvendrasingh/?hl=en" target="_blank">
+                    <i class="fa-brands fa-instagram"style="padding:0px 10px">
+                    </i>
+                </a>
+            </h6>
+            </div>
+            <hr>
+            <div id="copyright">
+                <p>All Rights Reserved @Manvendra | Copyright 2022 <i class="fa-solid fa-copyright"></i></p>
+            </div>
+        </div>        
+    </div>
     
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="mian.js"></script>
+    <script src="https://kit.fontawesome.com/913eeda6d0.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
